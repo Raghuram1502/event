@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detail</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/event.css') }}">
+</head>
+<center>
+<body>
+    <div id="details_container">
+    <h2>Succussfully Register!</h2>
+    
+    <p>Your id is :"{{id}}"</p><br>
+        
+    <a href="/get/{{id}}">view details</a> 
+    </div>
+
+    <a href="/">Home</a>
+</body>
+</center>
+
+</html>
